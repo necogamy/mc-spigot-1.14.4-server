@@ -1,0 +1,542 @@
+[07:48:43] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[07:48:43] [Server thread/INFO]: Loading properties
+[07:48:43] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-9de398a-9c887d4 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[07:48:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:48:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:48:44] [Server thread/INFO]: Debug logging is disabled
+[07:48:44] [Server thread/INFO]: Default game type: SURVIVAL
+[07:48:44] [Server thread/INFO]: Generating keypair
+[07:48:44] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25663
+[07:48:44] [Server thread/INFO]: Using epoll channel type
+[07:48:52] [Server thread/WARN]: Plugin ChatColor2 v1.9.4 does not specify an api-version.
+[07:48:52] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.0.72
+[07:48:52] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.5
+[07:48:52] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.0.1;61bc012
+[07:48:54] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@35adf7fe]
+[07:48:54] [Server thread/INFO]: [ChatColor2] Loading ChatColor2 v1.9.4
+[07:48:54] [Server thread/INFO]: [Mines] Loading Mines vRELEASE 1.1
+[07:48:54] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.1-Release
+[07:48:54] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[07:48:54] [Server thread/INFO]: [ProtocolSupport] Loading ProtocolSupport v4.29-dev
+[07:48:54] [Server thread/INFO]: [ProtocolSupport] Detected Spigot server implementation type
+[07:48:54] [Server thread/INFO]: [ProtocolSupport] Login threads keep alive time: 60
+[07:48:54] [Server thread/INFO]: [ProtocolSupport] Status threads max count: 2, keep alive time: 60
+[07:48:54] [Server thread/INFO]: [ProtocolSupport] Assume 1.5.2 ping delay: 100
+[07:48:54] [Server thread/INFO]: [ProtocolSupport] Assume legacy ping delay: 200
+[07:49:02] [Server thread/INFO]: [ProtocolSupport] Compression level: 3
+[07:49:02] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.1.0-b775
+[07:49:02] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.1;f2118aa
+[07:49:02] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.43
+[07:49:02] [Server thread/INFO]: [UltraCosmetics] Loading UltraCosmetics v2.5.7
+[07:49:02] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.2.43
+[07:49:02] [Server thread/INFO]: [SimplePortals] Loading SimplePortals v1.4.5
+[07:49:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.0.72
+[07:49:02] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[07:49:02] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms [0;36;1mv5.0.72[m
+[07:49:02] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[07:49:02] [Server thread/INFO]: [m
+[07:49:02] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[07:49:02] [Server thread/INFO]: [LuckPerms] Loading storage provider... [YAML]
+[07:49:02] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[07:49:02] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[07:49:03] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 918ms)
+[07:49:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.0.1;61bc012
+[07:49:03] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[07:49:03] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R4 as the Bukkit adapter
+[07:49:04] [Server thread/WARN]: [WorldEdit] ====================================================
+[07:49:04] [Server thread/WARN]: [WorldEdit]  WorldEdit works better if you use Paper 
+[07:49:04] [Server thread/WARN]: [WorldEdit]  as your server software. 
+[07:49:04] [Server thread/WARN]: [WorldEdit]   
+[07:49:04] [Server thread/WARN]: [WorldEdit]  Paper offers significant performance improvements,
+[07:49:04] [Server thread/WARN]: [WorldEdit]  bug fixes, security enhancements and optional
+[07:49:04] [Server thread/WARN]: [WorldEdit]  features for server owners to enhance their server.
+[07:49:04] [Server thread/WARN]: [WorldEdit]   
+[07:49:04] [Server thread/WARN]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[07:49:04] [Server thread/WARN]: [WorldEdit]  better at diagnosing lag problems over v1.
+[07:49:04] [Server thread/WARN]: [WorldEdit]   
+[07:49:04] [Server thread/WARN]: [WorldEdit]  All of your plugins should still work, and the
+[07:49:04] [Server thread/WARN]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[07:49:04] [Server thread/WARN]: [WorldEdit]   
+[07:49:04] [Server thread/WARN]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[07:49:04] [Server thread/WARN]: [WorldEdit] ====================================================
+[07:49:04] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[07:49:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[07:49:04] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[07:49:04] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[07:49:04] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[07:49:04] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[07:49:04] [Server thread/INFO]: [ProtocolSupport] Enabling ProtocolSupport v4.29-dev
+[07:49:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:49:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:49:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:49:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:49:04] [Server thread/INFO]: Preparing level "world"
+[07:49:05] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[07:49:48] [Server thread/INFO]: Loaded 6 recipes
+[07:49:48] [Server thread/INFO]: -------- World Settings For [world] --------
+[07:49:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[07:49:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Potato Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[07:49:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[07:49:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[07:49:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[07:49:48] [Server thread/INFO]: Max TNT Explosions: 100
+[07:49:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[07:49:48] [Server thread/INFO]: Mob Spawn Range: 6
+[07:49:48] [Server thread/INFO]: View Distance: 10
+[07:49:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[07:49:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[07:49:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[07:49:48] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[07:49:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[07:49:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[07:49:48] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[07:49:48] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[07:49:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[07:49:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Potato Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[07:49:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[07:49:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[07:49:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[07:49:48] [Server thread/INFO]: Max TNT Explosions: 100
+[07:49:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[07:49:48] [Server thread/INFO]: Mob Spawn Range: 6
+[07:49:48] [Server thread/INFO]: View Distance: 10
+[07:49:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[07:49:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[07:49:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[07:49:48] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[07:49:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[07:49:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[07:49:48] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[07:49:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[07:49:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Potato Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[07:49:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[07:49:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[07:49:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[07:49:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[07:49:48] [Server thread/INFO]: Max TNT Explosions: 100
+[07:49:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[07:49:48] [Server thread/INFO]: Mob Spawn Range: 6
+[07:49:48] [Server thread/INFO]: View Distance: 10
+[07:49:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[07:49:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[07:49:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[07:49:48] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[07:49:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[07:49:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[07:49:49] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[07:49:50] [Server thread/INFO]: Preparing spawn area: 0%
+[07:49:50] [Server thread/INFO]: Preparing spawn area: 0%
+[07:49:50] [Server thread/INFO]: Preparing spawn area: 0%
+[07:49:50] [Server thread/INFO]: Preparing spawn area: 30%
+[07:49:50] [Server thread/INFO]: Time elapsed: 1901 ms
+[07:49:50] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[07:49:51] [Server thread/INFO]: Preparing spawn area: 0%
+[07:49:51] [Server thread/INFO]: Preparing spawn area: 0%
+[07:49:51] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[07:49:52] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[07:49:52] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[07:49:54] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[07:49:54] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[07:49:54] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[07:49:54] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[07:49:55] [Server-Worker-1/INFO]: Preparing spawn area: 84%
+[07:49:55] [Server-Worker-1/INFO]: Preparing spawn area: 91%
+[07:49:56] [Server thread/INFO]: Time elapsed: 5503 ms
+[07:49:56] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[07:49:56] [Server thread/INFO]: Preparing spawn area: 0%
+[07:49:56] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[07:49:57] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[07:49:57] [Server thread/INFO]: Time elapsed: 1344 ms
+[07:49:57] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.5
+[07:49:58] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_14_R1[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_CLEAR to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_CLEAR_OTHER to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_UPDATE to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_UPDATE_OTHER to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET_OTHER to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_RELOAD to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_STATUS to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_DROP to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_PROPS to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value PLAYER_HAS_NO_PERMISSION_SKIN to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value PLAYER_HAS_NO_PERMISSION_URL to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_DISABLED to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value NOT_PREMIUM to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value INVALID_PLAYER to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_COOLDOWN_NEW to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CHANGE_SUCCESS to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CLEAR_SUCCESS to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CLEAR_ISSUER to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value MS_UPDATING_SKIN to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_UPDATING_SKIN to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_UPDATING_SKIN_OTHER to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_UPDATING_SKIN to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_MS_FULL to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_MS_GENERIC to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value GENERIC_ERROR to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value WAIT_A_MINUTE to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value MENU_OPEN to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value NEXT_PAGE to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value PREVIOUS_PAGE to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value REMOVE_SKIN to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value SELECT_SKIN to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value ADMIN_SET_SKIN to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_DATA_DROPPED to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value STATUS_OK to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value ALT_API_FAILED to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value MS_API_FAILED to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value NO_SKIN_DATA to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value RELOAD to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value OUTDATED to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value SR_LINE to messages.yml
+[07:49:58] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_PLAYER to messages.yml
+[07:49:58] [Server thread/INFO]: [ChatColor2] Enabling ChatColor2 v1.9.4
+[07:49:58] [Server thread/INFO]: [0;35;22m[21m[[0;33;22mChat[0;32;1mC[0;36;1mo[0;31;1ml[0;35;1mo[0;33;1mr[0;35;22m[21m] [0;33;1mChatColor 2 Version [0;36;1m1.9.4 [0;33;1mhas been [0;32;1menabled[0;33;1m.[m
+[07:49:58] [Server thread/INFO]: [0;35;22m[21m[[0;33;22mChat[0;32;1mC[0;36;1mo[0;31;1ml[0;35;1mo[0;33;1mr[0;35;22m[21m] [0;33;1mCurrent update: [0;36;1mColor-Text placeholders everywhere, bug fixes.[m
+[07:49:58] [Server thread/INFO]: [0;35;22m[21m[[0;33;22mChat[0;32;1mC[0;36;1mo[0;31;1ml[0;35;1mo[0;33;1mr[0;35;22m[21m] [0;33;1m[0;36;1mPlaceholderAPI not found, placeholders [0;31;1mwill not be available[0;36;1m.[m
+[07:49:58] [Server thread/INFO]: [0;35;22m[21m[[0;33;22mChat[0;32;1mC[0;36;1mo[0;31;1ml[0;35;1mo[0;33;1mr[0;35;22m[21m] [0;33;1m[0;36;1mMetrics [0;33;1mis [0;32;1menabled [0;33;1mfor this plugin. Stats sent to [0;36;1mhttps://bstats.org/plugin/bukkit/ChatColor2[m
+[07:49:58] [Server thread/INFO]: [Mines] Enabling Mines vRELEASE 1.1
+[07:49:58] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.1-Release
+[07:49:58] [Server thread/ERROR]: [DeluxeMenus] Could not hook into PlaceholderAPI!
+[07:49:58] [Server thread/ERROR]: [DeluxeMenus] DeluxeMenus will now disable!
+[07:49:58] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.13.1-Release
+[07:49:58] [Server thread/ERROR]: Error occurred while disabling DeluxeMenus v1.13.1-Release (Is it up to date?)
+java.lang.NullPointerException: null
+	at com.extendedclip.deluxemenus.DeluxeMenus.onDisable(DeluxeMenus.java:180) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:265) ~[spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:377) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:438) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
+	at com.extendedclip.deluxemenus.DeluxeMenus.onEnable(DeluxeMenus.java:129) [DeluxeMenus-1.13.1-Release.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:461) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:375) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:776) [spigot-1.14.4.jar:git-Spigot-9de398a-9c887d4]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_242]
+[07:49:58] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.1.0-b775
+[07:49:58] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.1.0-b775" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
+[07:49:58] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do. The performance impact is negligible.
+[07:49:58] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[07:49:59] [Server thread/INFO]: [Multiverse-Core] Version 4.1.0-b775 (API v24) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[07:49:59] [Server thread/INFO]: [Multiverse-Core] Help dumptruckman keep this project alive. Become a patron! https://www.patreon.com/dumptruckman
+[07:49:59] [Server thread/INFO]: [Multiverse-Core] One time donations are also appreciated: https://www.paypal.me/dumptruckman
+[07:49:59] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.1;f2118aa
+[07:49:59] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[07:49:59] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[07:49:59] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[07:49:59] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[07:49:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[07:49:59] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[07:49:59] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[07:49:59] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[07:49:59] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[07:49:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[07:49:59] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[07:49:59] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[07:49:59] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[07:49:59] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[07:49:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[07:49:59] [Server thread/INFO]: [WorldGuard] Loading region data...
+[07:49:59] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.43
+[07:49:59] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[07:49:59] [Server thread/INFO]: No kits found to migrate.
+[07:49:59] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[07:49:59] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[07:49:59] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[07:49:59] [Server thread/INFO]: Loaded 21019 items from items.json.
+[07:49:59] [Server thread/INFO]: Using locale en
+[07:49:59] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[07:49:59] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[07:49:59] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[07:49:59] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[07:49:59] [Server thread/INFO]: [UltraCosmetics] Enabling UltraCosmetics v2.5.7
+[07:49:59] [Server thread/INFO]: 04/04/2020 - UltraCosmetics [INFO]: -------------------------------------------------------------------
+[07:49:59] [Server thread/INFO]: 04/04/2020 - UltraCosmetics [INFO]: UltraCosmetics v2.5.7 is loading... (server: 1.14.4)
+[07:49:59] [Server thread/INFO]: 04/04/2020 - UltraCosmetics [INFO]: Thanks for downloading it!
+[07:49:59] [Server thread/INFO]: 04/04/2020 - UltraCosmetics [INFO]: Plugin by iSach.
+[07:49:59] [Server thread/INFO]: 04/04/2020 - UltraCosmetics [INFO]: Link: http://bit.ly/UltraCosmetics
+[07:50:01] [Server thread/INFO]: 04/04/2020 - UltraCosmetics [INFO]: Initializing module v1_14_R1
+[07:50:01] [Server thread/INFO]: 04/04/2020 - UltraCosmetics [INFO]: bStats enabled!
+[07:50:01] [Server thread/INFO]: 04/04/2020 - UltraCosmetics [INFO]: Module initialized
+[07:50:02] [Server thread/INFO]: 04/04/2020 - UltraCosmetics [INFO]: 
+[07:50:02] [Server thread/INFO]: 04/04/2020 - UltraCosmetics [INFO]: Morphs require Lib's Disguises!
+[07:50:02] [Server thread/INFO]: 04/04/2020 - UltraCosmetics [INFO]: 
+[07:50:02] [Server thread/INFO]: 04/04/2020 - UltraCosmetics [INFO]: Morphs disabled.
+[07:50:02] [Server thread/INFO]: 04/04/2020 - UltraCosmetics [INFO]: 
+[07:50:02] [Server thread/INFO]: 04/04/2020 - UltraCosmetics [INFO]: 
+[07:50:02] [Server thread/INFO]: 04/04/2020 - UltraCosmetics [INFO]: Hooked into Vault for economy: Essentials Economy
+[07:50:02] [Server thread/INFO]: 04/04/2020 - UltraCosmetics [INFO]: 
+[07:50:02] [Server thread/INFO]: 04/04/2020 - UltraCosmetics [INFO]: UltraCosmetics successfully finished loading and is now enabled!
+[07:50:02] [Server thread/INFO]: 04/04/2020 - UltraCosmetics [INFO]: -------------------------------------------------------------------
+[07:50:02] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.2.43
+[07:50:02] [Server thread/INFO]: [SimplePortals] Enabling SimplePortals v1.4.5
+[07:50:02] [Server thread/INFO]: [SimplePortals] Everything inside the configuration seems to be up to date. (Took 2ms)
+[07:50:02] [Server thread/INFO]: [SimplePortals] All packets have been successfully setup for v1_14_R1!
+[07:50:02] [Server thread/INFO]: [SimplePortals] The plugin has enabled successfully!
+[07:50:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:50:03] [Server thread/INFO]: Done (58.268s)! For help, type "help"
+[07:50:03] [Server thread/INFO]: Starting GS4 status listener
+[07:50:03] [Query Listener #1/INFO]: Query running on 0.0.0.0:25663
+[07:50:03] [Craft Scheduler Thread - 7/INFO]: [Vault] Checking for Updates ... 
+[07:50:03] [Craft Scheduler Thread - 5/INFO]: [SimplePortals] Everything looks like it is up to date!
+[07:50:03] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[07:50:03] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[07:50:03] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[07:50:03] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[07:50:03] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[07:50:03] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m13.7.5[m
+[07:50:03] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+[07:50:03] [Craft Scheduler Thread - 0/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[07:50:03] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[07:50:03] [Craft Scheduler Thread - 7/INFO]: [Vault] No new version available
+[07:50:09] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[07:50:32] [LoginProcessingThread/INFO]: UUID of player Niso is b26aa02f-1486-382a-a3ea-cb12158d9024
+[07:50:33] [Server thread/INFO]: Niso[/181.47.235.219:57535] logged in with entity id 329 at ([world]236.5565592450354, 70.00001, 428.62948643318464)
+[07:50:33] [Server thread/WARN]: [Essentials] Permissions lag notice with (ModernVaultHandler). Response took 63.985131ms. Summary: Getting prefix for Niso
+[07:50:41] [Async Chat Thread - #0/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22mNiso[m> [0;37;1masd[m
+[07:50:43] [Server thread/INFO]: Niso issued server command: /chatcolor
+[07:50:46] [Server thread/INFO]: Niso issued server command: /chatcolor help
+[07:51:13] [Server thread/INFO]: Niso issued server command: /chatcolor 4
+[07:51:13] [Async Chat Thread - #0/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22mNiso[m> [0;31;22masd[m
+[07:51:25] [Server thread/INFO]: Niso issued server command: /chatcolor default
+[07:51:26] [Async Chat Thread - #0/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22mNiso[m> [0;37;1masd[m
+[07:52:57] [Server thread/INFO]: Niso issued server command: /skin
+[07:54:08] [Server thread/INFO]: Niso issued server command: /skin set Mostest_
+[07:54:14] [Server thread/INFO]: Niso issued server command: /skinw
+[07:54:18] [Server thread/INFO]: Niso issued server command: /skinw
+[07:54:20] [Server thread/INFO]: Niso issued server command: /skins
+[07:54:35] [Server thread/INFO]: Niso issued server command: /skin
+[07:54:37] [Server thread/INFO]: Niso issued server command: /skins
+[07:54:42] [Server thread/INFO]: Niso issued server command: /skins
+[07:55:05] [Server thread/WARN]: Niso moved too quickly! -10.463618062238169,-0.0625,2.7732390766083768
+[07:56:32] [Server thread/INFO]: Niso issued server command: /skins
+[07:57:03] [Server thread/INFO]: Niso issued server command: /lp
+[07:57:03] [Server thread/INFO]: Niso issued server command: /lp
+[07:57:05] [Server thread/INFO]: Niso issued server command: /lp help
+[07:57:20] [Server thread/INFO]: Niso issued server command: /lp search *
+[07:57:26] [Server thread/INFO]: Niso issued server command: /lp Niso
+[07:57:29] [Server thread/INFO]: Niso issued server command: /lp Niso
+[07:57:35] [Server thread/INFO]: Niso issued server command: /lp user NIso
+[07:57:38] [Server thread/INFO]: Niso issued server command: /lp user Niso
+[07:57:56] [Server thread/INFO]: Niso issued server command: /lp user Niso info
+[07:58:24] [Server thread/INFO]: Niso issued server command: /lp group
+[07:58:30] [Server thread/INFO]: Niso issued server command: /lp group Developer info
+[07:58:42] [Server thread/INFO]: Niso issued server command: /lp group Developer permission
+[07:58:51] [Server thread/INFO]: Niso issued server command: /lp group Developer permission info
+[07:59:06] [Server thread/INFO]: Niso issued server command: /lp group Developer
+[08:02:41] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&c&lDEVELOPER "
+[08:02:41] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:02:41] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;31;1m[21mDEVELOPER [m
+[08:02:53] [Server thread/INFO]: Niso issued server command: /lp
+[08:02:54] [Server thread/INFO]: Niso issued server command: /lp help
+[08:03:03] [Server thread/INFO]: Niso issued server command: /lp listgroups
+[08:03:29] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&6&lDEVELOPER "
+[08:03:29] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:03:29] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;33;22m[21mDEVELOPER [m
+[08:03:33] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&4&lDEVELOPER "
+[08:03:33] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:03:33] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;31;22m[21mDEVELOPER [m
+[08:04:22] [Server thread/INFO]: Niso issued server command: /lp user Niso parent set Developer
+[08:04:22] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mU[0;30;1m] ([0;36;1mNiso[0;30;1m)[m
+[08:04:22] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mparent set developer[m
+[08:04:27] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21mDEVELOPER [0;31;22mNiso[m> [0;37;1masd[m
+[08:04:49] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&3&lDEVELOPER "
+[08:04:49] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:04:49] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;36;22m[21mDEVELOPER [m
+[08:04:52] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&1&lDEVELOPER "
+[08:04:52] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:04:52] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;34;22m[21mDEVELOPER [m
+[08:04:54] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&2&lDEVELOPER "
+[08:04:54] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:04:54] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;32;22m[21mDEVELOPER [m
+[08:04:57] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&5&lDEVELOPER "
+[08:04:57] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:04:57] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;35;22m[21mDEVELOPER [m
+[08:05:00] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&7&lDEVELOPER "
+[08:05:00] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:05:00] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;37;22m[21mDEVELOPER [m
+[08:05:03] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&8&lDEVELOPER "
+[08:05:03] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:05:03] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;30;1m[21mDEVELOPER [m
+[08:05:07] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&4&lDEVELOPER "
+[08:05:07] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:05:07] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;31;22m[21mDEVELOPER [m
+[08:05:08] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21mDEVELOPER [0;31;22mNiso[m> [0;37;1masd[m
+[08:05:36] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&4&l[DEVELOPER] "
+[08:05:36] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:05:36] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;31;22m[21m[DEVELOPER] [m
+[08:05:37] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21m[DEVELOPER] [0;31;22mNiso[m> [0;37;1msad[m
+[08:05:47] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21m[DEVELOPER] [0;31;22mNiso[m> [0;37;1mqweqwe[m
+[08:05:55] [Server thread/INFO]: Niso issued server command: /deop Niso
+[08:05:55] [Server thread/INFO]: [Niso: Made Niso no longer a server operator]
+[08:05:58] [Server thread/INFO]: Niso issued server command: /deop Niso
+[08:06:00] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21m[DEVELOPER] Niso[m> [0;37;1masd[m
+[08:06:01] [Server thread/INFO]: Niso issued server command: /ban
+[08:06:07] [Server thread/INFO]: Niso issued server command: /plugins
+[08:06:23] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21m[DEVELOPER] Niso[m> [0;37;1masd[m
+[08:06:55] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&4&l[DEVELOPER] &f"
+[08:06:55] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:06:55] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;31;22m[21m[DEVELOPER] [0;37;1m[m
+[08:06:55] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21m[DEVELOPER] [0;37;1mNiso[m> [0;37;1masd[m
+[08:07:06] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21m[DEVELOPER] [0;37;1mNiso[m> [0;37;1mxd[m
+[08:07:44] [Server thread/INFO]: Niso issued server command: /lp group Owner permission set * true
+[08:07:44] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mowner[0;30;1m)[m
+[08:07:44] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mpermission set * true[m
+[08:08:03] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&4&l[DEVELOPER] &f&l"
+[08:08:03] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:08:03] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;31;22m[21m[DEVELOPER] [0;37;1m[21m[m
+[08:08:03] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21m[DEVELOPER] [0;37;1m[21mNiso[m> [0;37;1masd[m
+[08:08:11] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21m[DEVELOPER] [0;37;1m[21mNiso[m> [0;37;1mxd[m
+[08:08:25] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&4&l[Developer] &f&l"
+[08:08:25] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:08:25] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;31;22m[21m[Developer] [0;37;1m[21m[m
+[08:08:25] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21m[Developer] [0;37;1m[21mNiso[m> [0;37;1masd[m
+[08:08:30] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&4&l[Developer] &f"
+[08:08:30] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:08:30] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;31;22m[21m[Developer] [0;37;1m[m
+[08:08:30] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21m[Developer] [0;37;1mNiso[m> [0;37;1masd[m
+[08:08:39] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&4&l[developer] &f"
+[08:08:39] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:08:39] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;31;22m[21m[developer] [0;37;1m[m
+[08:08:40] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21m[developer] [0;37;1mNiso[m> [0;37;1masd[m
+[08:08:47] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&4&l[Developer] &f"
+[08:08:47] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:08:47] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;31;22m[21m[Developer] [0;37;1m[m
+[08:08:51] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&4[Developer] &f"
+[08:08:51] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:08:51] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;31;22m[Developer] [0;37;1m[m
+[08:08:52] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[Developer] [0;37;1mNiso[m> [0;37;1masd[m
+[08:08:56] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[Developer] [0;37;1mNiso[m> [0;37;1mxd[m
+[08:09:03] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&4&l[Developer] &f"
+[08:09:03] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:09:03] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;31;22m[21m[Developer] [0;37;1m[m
+[08:09:04] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21m[Developer] [0;37;1mNiso[m> [0;37;1masd[m
+[08:09:12] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&4&l[Dev] &f"
+[08:09:12] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:09:12] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;31;22m[21m[Dev] [0;37;1m[m
+[08:09:12] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21m[Dev] [0;37;1mNiso[m> [0;37;1masd[m
+[08:09:18] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&4&l[DEV] &f"
+[08:09:18] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:09:18] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;31;22m[21m[DEV] [0;37;1m[m
+[08:09:19] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21m[DEV] [0;37;1mNiso[m> [0;37;1masd[m
+[08:09:27] [Server thread/INFO]: Niso issued server command: /lp group Developer meta setprefix "&4&l[Developer] &f"
+[08:09:27] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdeveloper[0;30;1m)[m
+[08:09:27] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;31;22m[21m[Developer] [0;37;1m[m
+[08:09:27] [Async Chat Thread - #1/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21m[Developer] [0;37;1mNiso[m> [0;37;1ma[m
+[08:10:31] [Server thread/INFO]: Niso issued server command: /lp group Owner meta setprefix "&7&l[Owner] &f"
+[08:10:31] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mowner[0;30;1m)[m
+[08:10:31] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;37;22m[21m[Owner] [0;37;1m[m
+[08:10:41] [Server thread/INFO]: Niso issued server command: /lp group Owner meta setprefix "&0&l[Owner] &f"
+[08:10:41] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mowner[0;30;1m)[m
+[08:10:41] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;30;22m[21m[Owner] [0;37;1m[m
+[08:11:00] [Async Chat Thread - #2/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21m[Developer] [0;37;1mNiso[m> [0;37;1masd[m
+[08:11:31] [Async Chat Thread - #2/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21m[Developer] [0;37;1mNiso[m> [0;37;1mxDD[m
+[08:12:28] [Server thread/INFO]: Niso issued server command: /lp help
+[08:12:33] [Server thread/INFO]: Niso issued server command: /lp group
+[08:12:37] [Server thread/INFO]: Niso issued server command: /lp group info
+[08:12:42] [Server thread/INFO]: Niso issued server command: /lp groups
+[08:12:50] [Server thread/INFO]: Niso issued server command: /lp info
+[08:13:00] [Server thread/INFO]: Niso issued server command: /lp listgroups
+[08:13:45] [Server thread/INFO]: Niso issued server command: /lp group default meta setprefix "&a&l[Owner] &e"
+[08:13:45] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[08:13:45] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;32;1m[21m[Owner] [0;33;1m[m
+[08:13:58] [Server thread/INFO]: Niso issued server command: /lp group default meta setprefix "&a&l[Usuario] &e"
+[08:13:58] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[08:13:58] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mmeta setprefix 1 [0;32;1m[21m[Usuario] [0;33;1m[m
+[08:14:19] [Async Chat Thread - #3/INFO]: [[0;37;1m[0;37;1m][m<[0;31;22m[21m[Developer] [0;37;1mNiso[m> [0;37;1masd[m
+[08:14:42] [Server thread/INFO]: Niso issued server command: /lp user Niso parent set default
+[08:14:42] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mNiso[0;30;1m) [[0;32;1mU[0;30;1m] ([0;36;1mNiso[0;30;1m)[m
+[08:14:42] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mparent set default[m
+[08:14:42] [Async Chat Thread - #3/INFO]: [[0;37;1m[0;37;1m][m<[0;32;1m[21m[Usuario] [0;33;1mNiso[m> [0;37;1masd[m
+[08:14:45] [Server thread/INFO]: Niso issued server command: /ban
+[08:14:45] [Server thread/INFO]: §cNiso §4was denied access to command.
+[08:14:52] [Async Chat Thread - #3/INFO]: [[0;37;1m[0;37;1m][m<[0;32;1m[21m[Usuario] [0;33;1mNiso[m> [0;37;1mqwe[m
+[08:14:57] [Async Chat Thread - #3/INFO]: [[0;37;1m[0;37;1m][m<[0;32;1m[21m[Usuario] [0;33;1mNiso[m> [0;37;1mdx[m
+[08:15:03] [Server thread/INFO]: Niso issued server command: /op
+[08:15:05] [Server thread/INFO]: Niso issued server command: /delet
+[08:15:08] [Server thread/INFO]: Niso issued server command: //copy
+[08:15:21] [Server thread/INFO]: Niso issued server command: /lp user Niso parent set owner
+[08:15:22] [Async Chat Thread - #3/INFO]: [[0;37;1m[0;37;1m][m<[0;32;1m[21m[Usuario] [0;33;1mNiso[m> [0;37;1mads[m
+[08:15:27] [Server thread/INFO]: Niso issued server command: /lp user Niso parent set parent owner
+[08:15:55] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;1mNiso[0;32;1m had their existing parent groups cleared, and now only inherits [0;36;1mowner[0;32;1m in context [0;33;1mglobal[0;32;1m.[m
+[08:15:57] [Async Chat Thread - #3/INFO]: [[0;37;1m[0;37;1m][m<[0;30;22m[21m[Owner] [0;37;1mNiso[m> [0;37;1masd[m
+[08:16:00] [Server thread/INFO]: Niso issued server command: /ban
+[08:16:00] [Server thread/INFO]: Niso issued server command: /op
+[08:16:18] [pool-11-thread-1/INFO]: [0;37;22m[21m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m[21m] [0;36;1mNiso[0;32;1m had their existing parent groups cleared, and now only inherits [0;36;1mdefault[0;32;1m in context [0;33;1mglobal[0;32;1m.[m
+[08:16:20] [Async Chat Thread - #3/INFO]: [[0;37;1m[0;37;1m][m<[0;32;1m[21m[Usuario] [0;33;1mNiso[m> [0;37;1masd[m
+[08:16:22] [Server thread/INFO]: Niso issued server command: /ban
+[08:16:22] [Server thread/INFO]: §cNiso §4was denied access to command.
+[08:16:34] [Server thread/INFO]: Niso issued server command: /gm 1
+[08:16:34] [Server thread/INFO]: §cNiso §4was denied access to command.
+[08:16:38] [Server thread/INFO]: Made Niso a server operator
+[08:16:41] [Server thread/INFO]: Niso issued server command: /gm 1
+[08:17:20] [Server thread/INFO]: Niso issued server command: /mv
+[08:17:24] [Server thread/INFO]: Niso issued server command: /mv list
+[08:17:45] [Server thread/INFO]: Niso issued server command: /mv info
+[08:17:51] [Server thread/INFO]: Niso issued server command: /mv info 2
+[08:18:11] [Server thread/INFO]: Niso issued server command: /mv list
+[08:18:15] [Server thread/INFO]: Niso issued server command: /mv tp survival
+[08:18:19] [Server thread/INFO]: Niso issued server command: /mv tp Survival
+[08:18:21] [Async Chat Thread - #4/INFO]: [[0;37;1mworld[0;37;1m][m<[0;32;1m[21m[Usuario] [0;33;1m[0;31;22mNiso[m> [0;37;1masd[m
+[08:18:36] [Async Chat Thread - #4/INFO]: [[0;37;1mworld[0;37;1m][m<[0;32;1m[21m[Usuario] [0;33;1m[0;31;22mNiso[m> [0;37;1mxd[m
+[08:18:37] [Server thread/INFO]: Niso lost connection: Disconnected
+[08:18:37] [Server thread/INFO]: Niso left the game
+[08:18:48] [LoginProcessingThread/INFO]: UUID of player Niso is b26aa02f-1486-382a-a3ea-cb12158d9024
+[08:18:49] [Server thread/INFO]: Niso[/181.47.235.219:57620] logged in with entity id 902 at ([world]247.10743389964725, 70.00001, 416.8734655867685)
+[08:18:51] [Async Chat Thread - #4/INFO]: [[0;37;1mworld[0;37;1m][m<[0;32;1m[21m[Usuario] [0;33;1m[0;31;22mNiso[m> [0;37;1masd[m
+[08:19:04] [Async Chat Thread - #4/INFO]: [[0;37;1mworld[0;37;1m][m<[0;32;1m[21m[Usuario] [0;33;1m[0;31;22mNiso[m> [0;37;1masd[m
+[08:19:06] [Server thread/INFO]: Niso issued server command: /ban
+[08:19:18] [Async Chat Thread - #4/INFO]: [[0;37;1mworld[0;37;1m][m<[0;32;1m[21m[Usuario] [0;33;1m[0;31;22mNiso[m> [0;37;1mas[m
+[08:19:50] [Server thread/INFO]: Niso lost connection: Disconnected
+[08:19:50] [Server thread/INFO]: Niso left the game

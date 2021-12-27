@@ -1,0 +1,6 @@
+name: developer
+permissions:
+- '*'
+prefixes:
+- '&4&l[Developer] &f':
+    priority: 1

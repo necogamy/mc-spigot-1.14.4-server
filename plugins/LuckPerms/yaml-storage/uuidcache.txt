@@ -1,0 +1,2 @@
+# LuckPerms UUID lookup cache
+b26aa02f-1486-382a-a3ea-cb12158d9024:Niso

@@ -1,0 +1,6 @@
+name: owner
+permissions:
+- '*'
+prefixes:
+- '&0&l[Owner] &f':
+    priority: 1

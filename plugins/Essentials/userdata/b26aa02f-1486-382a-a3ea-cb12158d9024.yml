@@ -1,0 +1,27 @@
+lastAccountName: Niso
+timestamps:
+  login: 1586002729262
+  logout: 1586002790164
+  kits:
+    usuario: 1585989405829
+  lastteleport: 1585993548666
+  mute: 0
+ipAddress: 181.47.235.219
+logoutlocation:
+  world: world
+  x: 245.519354376129
+  y: 70.0
+  z: 424.5751084286447
+  yaw: 35.40393
+  pitch: 18.600191
+godmode: false
+lastlocation:
+  world: world
+  x: 228.47172598769018
+  y: 70.0
+  z: 425.6266104560982
+  yaw: 199.79999
+  pitch: 15.899998
+afk: false
+muted: false
+socialspy: false
